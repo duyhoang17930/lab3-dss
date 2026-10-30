@@ -1,0 +1,10 @@
+﻿algorithm,requested_k,n_web,n_python,intersection,overlap_at_k,jaccard,top1_match,mean_absolute_rank_delta_common,same_user,comparison_status
+cbf,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+cf,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+hybrid,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+user_knn,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+item_knn,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+popularity,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+sgd,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+als_explicit,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch
+als_implicit,10,0,10,0,,0.0,,,False,unavailable_or_user_mismatch

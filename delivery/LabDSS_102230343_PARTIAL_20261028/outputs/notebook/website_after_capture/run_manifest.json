@@ -1,0 +1,83 @@
+{
+  "run_at": "2026-10-28T19:52:30.912532+07:00",
+  "data_dir": "data\\raw\\website_after_capture\\csv",
+  "dataset_snapshot_id": "f6582d5747ac1d61",
+  "raw_sha256": {
+    "users.csv": "6c9051e45931ae661cf30ac7dfcc8ad6a8f02b1ad060d0677eb3be31faa61a19",
+    "user_profiles.csv": "e6790f274d309f9a11342bd12f2aba8c0b7100a05caecce827046cd7392fcaab",
+    "job.csv": "86662d7f91f1b6ac88849c6a84f56f62c44e54025a0d2a81447afc75cc7d8168",
+    "ratings.csv": "6fa9bd3ad965c5717277b25050da54f85fa7c857d789b654d0e1c68604d37641",
+    "job_views.csv": "5fca959f3dcd4833acc483936c9e6df9a7af0b41739c0866c823de98e3960ef2"
+  },
+  "target_username": "sv102230343",
+  "target_user_id": "458",
+  "target_status": "profile_missing",
+  "target_rating_count": 0,
+  "config": {
+    "top_n": 10,
+    "seed": 42,
+    "similarity": "cosine",
+    "positive_threshold": 4.0,
+    "view_weight": 0.25,
+    "hybrid_alpha": 0.55,
+    "knn_k": 5,
+    "popularity_prior": 5.0,
+    "factors": 12,
+    "sgd_epochs": 45,
+    "sgd_lr": 0.012,
+    "sgd_reg": 0.04,
+    "als_explicit_epochs": 12,
+    "als_explicit_reg": 0.4,
+    "als_implicit_epochs": 10,
+    "als_implicit_alpha": 16.0,
+    "als_implicit_reg": 0.7,
+    "exclude_rated": true,
+    "active_only": true
+  },
+  "website_csv": "data\\website\\verified_baseline\\recommendations.csv",
+  "capture_manifest": "data\\website\\verified_baseline\\capture_manifest.json",
+  "config_id": "b53dde970b01",
+  "recommendation_rows": 90,
+  "algorithm_count": 9,
+  "source_sha256": {
+    "data.py": "45ab9bca277785df3df72d0220ebc91604b2c163e9bb7d04f6c363bcd67c9236",
+    "evaluation.py": "2cfae38631a66c5077c481c2c57ed5fb85a8d25a7e93d48f767921a4faf13b29",
+    "models.py": "87d0fba5068aaf93cc1aa070ecec0830fe15776e991b79eeff34640942c92e5d",
+    "run.py": "6ccb09f77eb5be95f739daf8c2051c811546e80b0124921e745da0fc6da02205",
+    "__init__.py": "ee2e49acc9df07342f88c7430ca929b27660e7def116159977abae1706261449"
+  },
+  "test_users": 14,
+  "python": "3.13.15",
+  "libraries": {
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "duration_seconds": 21.235,
+  "artifact_sha256": {
+    "data_quality.json": "b6fd248d39a422b3ccf237bc8e42ac546292146e6b6d03aee7f9d5d54cdff8eb",
+    "offline_metrics.csv": "02c7068bc45ebec6b9976c6c215b319b99298c5495943b5b9d2268d4a6bd1b1f",
+    "per_user_metrics.csv": "1eceb01fc4b256d2bd909443cdee85629224ebeca2776dc0221a3dac7baef400",
+    "recommendations.csv": "4a46e37d68959d9fcdff0fd2e53f03367537d9c50d2fd9218f696235dd94666a",
+    "split_manifest.json": "825b9bdb32c2ddbf84c08b85f0e2ff97c38c7dd5e451befb79ee3b0eace5d934",
+    "test_ratings.csv": "611f5783220823d07b1d12bbc73194e9242d257b5cdd438700f9a269e635b967",
+    "training_loss.csv": "e91935a44e87e1976854c4e7209ecd8b2e0086795f0c508850e04a943c8f8630",
+    "train_ratings.csv": "dc9ab7503df9802ec13fe4e80735f886436605fec5567627119f7c9644d3684b",
+    "train_views.csv": "5dd23be143f49d62eb423654d25dc9b6a65e779406e238633853fd8d34956a7d",
+    "website_comparison.csv": "91177a96aa9e06f08599be54ffdbb92868b01c32906d40461e0f0cdecc412450",
+    "website_rank_details.csv": "ad2d11710b3ae5734a566262d2a176a3991488bfce02340ddd75f315a8d9c550",
+    "figures\\offline_metrics.png": "f0825ec0bb140c4797ba1d3af44569f9dff7178927571aafc4c6e50cab6c549c",
+    "figures\\rating_distribution.png": "ec148044606b12777b6c714ce35cf07256e1b138dc3289cb01966422b8b780e7",
+    "figures\\training_loss.png": "b61fb20093e9daeaca1c3caa1b15b7341c9b81ba1c3e1477da83bab3e75e34d2"
+  },
+  "limitations": [
+    "Website backend parameters and exact live snapshot parity are not known.",
+    "Scores from different algorithms are not directly comparable.",
+    "Holdout uses positive ratings; HR equals recall because one item is held out per user.",
+    "Profile metadata are treated as static snapshot metadata; no historical profile versions.",
+    "Native-supported candidates rank before explicitly labeled fallback candidates.",
+    "Open status controls candidates; no inferred historical deadline filter."
+  ]
+}

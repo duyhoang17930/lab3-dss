@@ -1,0 +1,16 @@
+{
+  "capture_id": "item_knn_cosine",
+  "captured_at": "2026-10-28T07:31:08.682Z",
+  "user_id": "458",
+  "username": "sv102230343",
+  "requested_algorithm": "item_knn",
+  "similarity": "cosine",
+  "profile_state": "missing",
+  "rating_count": 0,
+  "filters": {
+    "query": "",
+    "location": "",
+    "job_type": ""
+  },
+  "screenshot": "evidence/website/baseline/item_knn_cosine.png"
+}

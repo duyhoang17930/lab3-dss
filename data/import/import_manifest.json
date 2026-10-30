@@ -1,0 +1,149 @@
+{
+  "catalog_path": "data/raw/website_after_capture/csv/job.csv",
+  "catalog_sha256": "86662d7f91f1b6ac88849c6a84f56f62c44e54025a0d2a81447afc75cc7d8168",
+  "catalog_rows": 1189,
+  "candidates": 11,
+  "selected": 10,
+  "columns": [
+    "job_title",
+    "job_description",
+    "job_applyrequirement",
+    "job_skills",
+    "job_type_skills",
+    "job_health_insurance",
+    "benefits",
+    "salary_min",
+    "salary_max",
+    "job_location",
+    "job_country",
+    "job_deadline",
+    "job_type",
+    "experience_level",
+    "company_name",
+    "company_address",
+    "hr_contact",
+    "company_website",
+    "link"
+  ],
+  "csv_sha256": "f1c0565a617743efffc28811d8f11b4b43846c1380bf5d43a827a0321106ac5b",
+  "status": "AWAITING_USER_CONFIRMATION_NOT_IMPORTED",
+  "unknown_fields_left_blank": [
+    "salary_min",
+    "salary_max",
+    "job_deadline",
+    "hr_contact",
+    "job_type_skills"
+  ],
+  "audit": [
+    {
+      "ref": "J01",
+      "title": "[EHV] Embedded Software Engineer - Basic Software (BSW)",
+      "company": "Bosch Global Software Technologies",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156236004--ehv-embedded-software-engineer-basic-software-bsw-",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J02",
+      "title": "[EPC] Senior Embedded Software Engineer (with Joining Bonus)",
+      "company": "Bosch Global Software Technologies",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000156705079--epc-senior-embedded-software-engineer-with-joining-bonus-",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J03",
+      "title": "[Internship] IT Support Intern",
+      "company": "Bosch Vietnam",
+      "location": "Đồng Nai",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000143439069--internship-it-support-intern",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J04",
+      "title": "[EDA] Intern for Embedded Software",
+      "company": "Bosch Global Software Technologies",
+      "location": "Hà Nội",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000143758952--eda-intern-for-embedded-software",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J05",
+      "title": "[ETA] Fresher Embedded Software Engineer (C focused)",
+      "company": "Bosch Global Software Technologies",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154052649--eta-fresher-embedded-software-engineer-c-focused-",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J06",
+      "title": "[ETA] Embedded Firmware Engineer",
+      "company": "Bosch Global Software Technologies",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://jobs.smartrecruiters.com/BoschGroup/744000157717649--eta-embedded-firmware-engineer",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J07",
+      "title": "Fresher Test Engineer (Full-stack/Manual)",
+      "company": "KMS Technology",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://careers.kms-technology.com/job/fresher-test-engineer-full-stack-manual-744000155975597/",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J08",
+      "title": "Senior Full-stack Software Engineer (Node.js/ TypeScript)",
+      "company": "KMS Technology",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://careers.kms-technology.com/job/senior-full-stack-software-engineer-node-js-typescript-744000152103869/",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J09",
+      "title": "Full-stack Test Engineer (Manual, Automation), based in Da Nang",
+      "company": "KMS Technology",
+      "location": "Đà Nẵng",
+      "source_url": "https://careers.kms-technology.com/job/full-stack-test-engineer-manual-automation-based-in-da-nang-744000156705539/",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J10",
+      "title": "Senior Test Engineer (AI-Augmented & Spec-Driven Testing)",
+      "company": "KMS Technology",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://careers.kms-technology.com/job/senior-test-engineer-ai-augmented-spec-driven-testing-744000158042229/",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": true,
+      "matches": []
+    },
+    {
+      "ref": "J11",
+      "title": "Senior Full-stack Test Engineer (Manual, Automation)",
+      "company": "KMS Technology",
+      "location": "Hồ Chí Minh",
+      "source_url": "https://careers.kms-technology.com/job/senior-full-stack-test-engineer-manual-automation-744000157728749/",
+      "dedupe_status": "no_match_in_snapshot",
+      "selected": false,
+      "matches": []
+    }
+  ]
+}

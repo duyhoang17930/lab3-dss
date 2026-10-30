@@ -1,0 +1,13 @@
+{
+  "strategy": "positive_leave_one_out_random",
+  "seed": 42,
+  "test_users": 14,
+  "test_ratings": 14,
+  "train_ratings": 197,
+  "excluded_users": 1,
+  "exclusions": {
+    "414": "fewer_than_3_ratings"
+  },
+  "removed_view_pairs": 0,
+  "limitation": "No trustworthy rating time. Positive-only holdout; RMSE/MAE are not all-rating accuracy. Static catalog/profile metadata available at snapshot."
+}

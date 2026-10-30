@@ -1,0 +1,11 @@
+{
+  "status": "NOT_VERIFIED",
+  "document": "reports/Bao_cao_LabDSS_102230343_DRAFT_NOT_VERIFIED.docx",
+  "renderer": "documents/render_docx.py",
+  "attempted": true,
+  "error": "FileNotFoundError: LibreOffice soffice.exe was not found on PATH",
+  "diagnosis": "No bundled LibreOffice in the supplied runtime dependencies. User desktop LibreOffice was not used.",
+  "page_images_created": 0,
+  "pages_visually_inspected": 0,
+  "required_followup": "Run canonical renderer with supported bundled dependencies and inspect every page before marking VERIFIED."
+}

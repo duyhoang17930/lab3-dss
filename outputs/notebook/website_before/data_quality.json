@@ -1,0 +1,114 @@
+{
+  "raw_counts": {
+    "users": 466,
+    "profiles": 72,
+    "jobs": 1168,
+    "ratings": 169,
+    "views": 0
+  },
+  "users": 466,
+  "jobs": 1168,
+  "ratings": 169,
+  "views_raw": 0,
+  "view_pairs": 0,
+  "rating_users": 13,
+  "rated_jobs": 93,
+  "rating_distribution": {
+    "1": 3,
+    "2": 8,
+    "3": 21,
+    "4": 66,
+    "5": 71
+  },
+  "users_without_skills": 399,
+  "jobs_without_skills": 13,
+  "status_counts": {
+    "open": 1146,
+    "closed": 22
+  },
+  "foreign_key_violations": {
+    "profiles_unknown_user": 0,
+    "ratings_unknown_user": 0,
+    "views_unknown_user": 0,
+    "ratings_unknown_job": 0,
+    "views_unknown_job": 0
+  },
+  "sparsity_all_users": 0.999689502616262,
+  "sparsity_rating_users": 0.9888698630136986,
+  "rating_timestamps_available": false,
+  "view_timestamp_unique": 0,
+  "skill_format": "JSON arrays and comma/semicolon/pipe-separated strings; NFC; lowercase; preserve phrases",
+  "raw_columns": {
+    "users": [
+      "id",
+      "username",
+      "email",
+      "full_name",
+      "phone",
+      "birth_date",
+      "hometown",
+      "address",
+      "role",
+      "is_active",
+      "is_verified",
+      "created_at"
+    ],
+    "profiles": [
+      "id",
+      "user_id",
+      "title",
+      "user_skills",
+      "user_summary",
+      "years_experience",
+      "expected_salary_min",
+      "expected_salary_max",
+      "preferred_location",
+      "preferred_job_type",
+      "user_type_skills",
+      "cv_url",
+      "profile_vector"
+    ],
+    "jobs": [
+      "id",
+      "employer_id",
+      "job_title",
+      "job_description",
+      "job_skills",
+      "job_type_skills",
+      "job_health_insurance",
+      "benefits",
+      "job_applyrequirement",
+      "job_country",
+      "salary_min",
+      "salary_max",
+      "job_location",
+      "job_type",
+      "experience_level",
+      "company_name",
+      "note",
+      "company_address",
+      "hr_contact",
+      "company_website",
+      "link",
+      "status",
+      "created_at",
+      "deadline",
+      "job_vector"
+    ],
+    "ratings": [
+      "id",
+      "user_id",
+      "job_id",
+      "rating",
+      "comment"
+    ],
+    "views": [
+      "id",
+      "user_id",
+      "job_id",
+      "view_duration",
+      "source",
+      "viewed_at"
+    ]
+  }
+}

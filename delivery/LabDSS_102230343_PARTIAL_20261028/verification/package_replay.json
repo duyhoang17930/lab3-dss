@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "clean_kernel": true,
+  "code_cells": 14,
+  "errors": 0,
+  "datasets": {
+    "provided_snapshot": {
+      "status": "PASS",
+      "replay_snapshot": "7a7581bfa17fb2c0",
+      "path": "data\\shared\\provided_snapshot",
+      "compared": [
+        "recommendations",
+        "offline_metrics",
+        "train_ratings",
+        "test_ratings",
+        "train_views"
+      ]
+    },
+    "website_before": {
+      "status": "PASS",
+      "replay_snapshot": "1b22d995d5e5f98d",
+      "path": "data\\shared\\website_before",
+      "compared": [
+        "recommendations",
+        "offline_metrics",
+        "train_ratings",
+        "test_ratings",
+        "train_views"
+      ]
+    },
+    "website_after_capture": {
+      "status": "PASS",
+      "replay_snapshot": "467c41b04cba1235",
+      "path": "data\\shared\\website_after_capture",
+      "compared": [
+        "recommendations",
+        "offline_metrics",
+        "train_ratings",
+        "test_ratings",
+        "train_views"
+      ]
+    }
+  },
+  "note": "Fresh execution used only ZIP contents and installed pinned dependencies; snapshot hashes differ after privacy reduction. Numerical outputs and partitions match raw runs."
+}

@@ -1,0 +1,112 @@
+{
+  "raw_counts": {
+    "users": 345,
+    "profiles": 34,
+    "jobs": 791,
+    "ratings": 104,
+    "views": 680
+  },
+  "users": 345,
+  "jobs": 791,
+  "ratings": 104,
+  "views_raw": 680,
+  "view_pairs": 680,
+  "rating_users": 34,
+  "rated_jobs": 49,
+  "rating_distribution": {
+    "3": 35,
+    "4": 34,
+    "5": 35
+  },
+  "users_without_skills": 311,
+  "jobs_without_skills": 0,
+  "status_counts": {
+    "open": 790,
+    "closed": 1
+  },
+  "foreign_key_violations": {
+    "profiles_unknown_user": 0,
+    "ratings_unknown_user": 0,
+    "views_unknown_user": 0,
+    "ratings_unknown_job": 0,
+    "views_unknown_job": 0
+  },
+  "sparsity_all_users": 0.9996189010425255,
+  "sparsity_rating_users": 0.9961329664609206,
+  "rating_timestamps_available": false,
+  "view_timestamp_unique": 1,
+  "skill_format": "JSON arrays and comma/semicolon/pipe-separated strings; NFC; lowercase; preserve phrases",
+  "raw_columns": {
+    "users": [
+      "id",
+      "email",
+      "pass",
+      "full_name",
+      "phone",
+      "role",
+      "is_active",
+      "is_verified",
+      "created_at",
+      "username",
+      "birth_date",
+      "hometown",
+      "address"
+    ],
+    "profiles": [
+      "id",
+      "user_id",
+      "title",
+      "user_skills",
+      "years_experience",
+      "expected_salary_min",
+      "expected_salary_max",
+      "preferred_location",
+      "preferred_job_type",
+      "cv_url",
+      "profile_vector",
+      "user_type_skills",
+      "user_summary"
+    ],
+    "jobs": [
+      "id",
+      "employer_id",
+      "job_title",
+      "job_description",
+      "job_skills",
+      "salary_min",
+      "salary_max",
+      "job_location",
+      "job_type",
+      "experience_level",
+      "status",
+      "created_at",
+      "deadline",
+      "job_vector",
+      "company_name",
+      "company_address",
+      "hr_contact",
+      "company_website",
+      "link",
+      "job_type_skills",
+      "job_health_insurance",
+      "note",
+      "job_country",
+      "benefits"
+    ],
+    "ratings": [
+      "id",
+      "user_id",
+      "job_id",
+      "rating",
+      "comment"
+    ],
+    "views": [
+      "id",
+      "user_id",
+      "job_id",
+      "view_duration",
+      "source",
+      "viewed_at"
+    ]
+  }
+}

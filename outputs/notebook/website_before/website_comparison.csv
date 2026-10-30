@@ -1,0 +1,10 @@
+﻿algorithm,similarity,requested_k,n_web,n_python,intersection,overlap_at_k,jaccard,top1_match,mean_absolute_rank_delta_common,same_user,capture_id,captured_at,comparison_status
+cbf,cosine,10,10,10,0,0.0,0.0,False,,True,cbf_cosine,2026-10-28T07:46:55.843Z,reference_only_backend_and_snapshot_not_proven
+cf,cosine,10,0,10,0,,0.0,,,True,cf_cosine,2026-10-28T07:39:57.923Z,reference_only_backend_and_snapshot_not_proven
+hybrid,cosine,10,10,10,0,0.0,0.0,False,,True,hybrid_cosine,2026-10-28T07:40:39.620Z,reference_only_backend_and_snapshot_not_proven
+user_knn,cosine,10,0,10,0,,0.0,,,True,user_knn_cosine,2026-10-28T07:41:50.756Z,reference_only_backend_and_snapshot_not_proven
+item_knn,cosine,10,0,10,0,,0.0,,,True,item_knn_cosine,2026-10-28T07:42:22.099Z,reference_only_backend_and_snapshot_not_proven
+popularity,cosine,10,10,10,0,0.0,0.0,False,,True,popularity_cosine,2026-10-28T07:39:01.957Z,reference_only_backend_and_snapshot_not_proven
+sgd,cosine,10,0,10,0,,0.0,,,True,sgd_cosine,2026-10-28T07:42:48.242Z,reference_only_backend_and_snapshot_not_proven
+als_explicit,cosine,10,0,10,0,,0.0,,,True,als_explicit_cosine,2026-10-28T07:43:18.479Z,reference_only_backend_and_snapshot_not_proven
+als_implicit,cosine,10,0,10,0,,0.0,,,True,als_implicit_cosine,2026-10-28T07:46:20.699Z,reference_only_backend_and_snapshot_not_proven

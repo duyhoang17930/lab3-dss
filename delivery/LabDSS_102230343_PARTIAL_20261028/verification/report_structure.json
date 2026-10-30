@@ -1,0 +1,11 @@
+{
+  "status": "STRUCTURAL_ONLY_NOT_VISUALLY_VERIFIED",
+  "reference_sha256": "52b9f0fc42642bc3b679db8c1a97a9c32fa35ae7a08b90e47c23a69ab1e20151",
+  "paragraphs": 212,
+  "tables": 27,
+  "figures": 18,
+  "output": "reports\\Bao_cao_LabDSS_102230343_DRAFT_NOT_VERIFIED.docx",
+  "sections": 1,
+  "page_count": null,
+  "render_status": "NOT_VERIFIED_MISSING_BUNDLED_LIBREOFFICE"
+}

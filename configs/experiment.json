@@ -1,0 +1,23 @@
+{
+  "data_dir": "data_MEDAJOB",
+  "target_username": "sv102230343",
+  "top_n": 10,
+  "seed": 42,
+  "similarity": "cosine",
+  "positive_threshold": 4.0,
+  "view_weight": 0.25,
+  "hybrid_alpha": 0.55,
+  "knn_k": 5,
+  "popularity_prior": 5.0,
+  "factors": 12,
+  "sgd_epochs": 45,
+  "sgd_lr": 0.012,
+  "sgd_reg": 0.04,
+  "als_explicit_epochs": 12,
+  "als_explicit_reg": 0.4,
+  "als_implicit_epochs": 10,
+  "als_implicit_alpha": 16.0,
+  "als_implicit_reg": 0.7,
+  "exclude_rated": true,
+  "active_only": true
+}

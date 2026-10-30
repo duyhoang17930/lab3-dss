@@ -1,0 +1,53 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+*.zip
+
+# Local IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local/private configuration and credentials
+.env
+.env.*
+!.env.example
+*storage_state*
+*cookies*
+*.pem
+*.key
+*.crt
+
+# Local raw data, temporary backups, and generated QA output
+data/raw/
+data_MEDAJOB/
+backups/
+qa/
+*.log

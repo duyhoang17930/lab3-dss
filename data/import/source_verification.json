@@ -1,0 +1,79 @@
+[
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000151535049",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151535049",
+    "http_status": 200,
+    "title": "",
+    "location": "Ho Chi Minh",
+    "address": "OfficeHaus Building, 32 Tan Thang street, Son Ky ward, Tan Phu district",
+    "expired": false,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000156236004--ehv-embedded-software-engineer-basic-software-bsw-",
+    "verified_at": "2026-10-28T07:41:25.920Z"
+  },
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000151528339",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151528339",
+    "http_status": 200,
+    "title": "",
+    "location": "Ho Chi Minh city",
+    "address": "Etown building, 364 Cong Hoa, Tan Binh ward",
+    "expired": false,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000156705079--epc-senior-embedded-software-engineer-with-joining-bonus-",
+    "verified_at": "2026-10-28T07:41:26.252Z"
+  },
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000143439069--internship-it-support-intern",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000143439069--internship-it-support-intern",
+    "http_status": 200,
+    "title": "",
+    "location": "Đồng Nai",
+    "address": "Đường số 8, Khu công nghiệp Long Thành, Huyện Long Thành",
+    "expired": false,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000143439069--internship-it-support-intern",
+    "verified_at": "2026-10-28T07:41:26.634Z"
+  },
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000143758952",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000143758952",
+    "http_status": 200,
+    "title": "",
+    "location": "Hanoi",
+    "address": "Capital Place Building, 29 Lieu Giai street, Ngoc Ha ward",
+    "expired": false,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000143758952--eda-intern-for-embedded-software",
+    "verified_at": "2026-10-28T07:41:26.972Z"
+  },
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000151526789",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000151526789",
+    "http_status": 200,
+    "title": "",
+    "location": "Hanoi",
+    "address": "Capital Place building, 29 Lieu Giai street, Ngoc Ha ward",
+    "expired": true,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000151526789--eta-junior-devops-engineer-1-3-years-of-experience-",
+    "verified_at": "2026-10-28T07:41:27.337Z"
+  },
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000154052649--eta-fresher-embedded-software-engineer-c-focused-",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000154052649--eta-fresher-embedded-software-engineer-c-focused-",
+    "http_status": 200,
+    "title": "",
+    "location": "Ho Chi Minh city",
+    "address": "364 Cong Hoa, Tan Binh Ward",
+    "expired": false,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000154052649--eta-fresher-embedded-software-engineer-c-focused-",
+    "verified_at": "2026-10-28T07:41:27.671Z"
+  },
+  {
+    "requested_url": "https://jobs.smartrecruiters.com/BoschGroup/744000157034729--eta-embedded-firmware-engineer",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000157034729--eta-embedded-firmware-engineer",
+    "http_status": 200,
+    "title": "",
+    "location": "Ho Chi Minh City",
+    "address": "Etown Building, 364 Cong Hoa Street, Ward 13, Tan Binh District",
+    "expired": false,
+    "canonical": "https://jobs.smartrecruiters.com/BoschGroup/744000157717649--eta-embedded-firmware-engineer",
+    "verified_at": "2026-10-28T07:41:28.025Z"
+  }
+]

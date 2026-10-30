@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-10-28T12:59:53.109Z",
+  "query": "[EHV] Embedded Software Engineer - Basic Software (BSW)",
+  "company": "Bosch",
+  "http_status": 200,
+  "total": 0,
+  "screenshot": "evidence/website/05_duplicate_check_J01.png",
+  "limitation": "Exact UI search example only; full dedupe done against export by source IDs and fuzzy title/company."
+}

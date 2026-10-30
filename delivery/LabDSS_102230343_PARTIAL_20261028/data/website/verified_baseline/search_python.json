@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-10-28T12:44:57.556Z",
+  "query": "python",
+  "http_status": 200,
+  "total": 53,
+  "job_ids": [
+    "2009",
+    "2008",
+    "2007",
+    "1957",
+    "1945",
+    "1919",
+    "1909",
+    "1908",
+    "1903",
+    "1899",
+    "1896",
+    "1889",
+    "1884",
+    "1866",
+    "1816"
+  ],
+  "screenshot": "evidence/website/04_search_python_verified.png"
+}

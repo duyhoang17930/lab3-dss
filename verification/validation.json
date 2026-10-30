@@ -1,0 +1,101 @@
+{
+  "tests": "PASS",
+  "test_summary": "43 passed in 5.92s",
+  "notebook": {
+    "status": "PASS",
+    "code_cells": 14,
+    "sha256": "21462d40a6ae4287cadd0f150a4fe6f8ffe810530337512d4bad0133b9556ec1"
+  },
+  "original_data_unchanged": "PASS",
+  "raw_shared_equivalence": {
+    "provided_snapshot": {
+      "status": "PASS",
+      "shared_snapshot_id": "7a7581bfa17fb2c0",
+      "note": "All model inputs and holdout identical; target recommendations verified where target exists."
+    },
+    "website_before": {
+      "status": "PASS",
+      "shared_snapshot_id": "1b22d995d5e5f98d",
+      "note": "All model inputs and holdout identical; target recommendations verified where target exists."
+    },
+    "website_after_capture": {
+      "status": "PASS",
+      "shared_snapshot_id": "467c41b04cba1235",
+      "note": "All model inputs and holdout identical; target recommendations verified where target exists."
+    }
+  },
+  "snapshots": {
+    "provided_snapshot": {
+      "snapshot_id": "7b33ca0861b04b83",
+      "users": 345,
+      "jobs": 791,
+      "ratings": 104,
+      "views": 680,
+      "open_jobs": 790,
+      "raw_sha256": {
+        "users.csv": "34d631ea7cfbb84e170a2b386e2b9c748530dc4cc94d3345f4b758d844b5fb65",
+        "user_profiles.csv": "d5e1ccf33e38962805071457fd64b7a8d143323ce7a28250e084816f5d927d18",
+        "jobs.csv": "1182942f51c49a6ef50052b054f958ab1601c8f7df68748a84283a1f4291892b",
+        "ratings.csv": "80da82fa4ac7ace65c795521b60ebccb429d9957fd045ee06b827313b450fbc4",
+        "job_views.csv": "167d0b654de3616fedd32cea9d4aa73dc8039746ba81c6e863b6570cbf29a5c6"
+      }
+    },
+    "website_before": {
+      "snapshot_id": "51408df1d5bcdeb8",
+      "users": 466,
+      "jobs": 1168,
+      "ratings": 169,
+      "views": 0,
+      "open_jobs": 1146,
+      "raw_sha256": {
+        "users.csv": "6c9051e45931ae661cf30ac7dfcc8ad6a8f02b1ad060d0677eb3be31faa61a19",
+        "user_profiles.csv": "e6790f274d309f9a11342bd12f2aba8c0b7100a05caecce827046cd7392fcaab",
+        "job.csv": "221467724e7718a3a210a317876a47190a0a661cbd46978b2c6a5c1410ee8dcf",
+        "ratings.csv": "f442c51ef05a00b4807366e6ea267f6cf61a4df20c7dc0f0e4f837e75536249f",
+        "job_views.csv": "5fca959f3dcd4833acc483936c9e6df9a7af0b41739c0866c823de98e3960ef2"
+      }
+    },
+    "website_after_capture": {
+      "snapshot_id": "f6582d5747ac1d61",
+      "users": 466,
+      "jobs": 1189,
+      "ratings": 211,
+      "views": 0,
+      "open_jobs": 1156,
+      "raw_sha256": {
+        "users.csv": "6c9051e45931ae661cf30ac7dfcc8ad6a8f02b1ad060d0677eb3be31faa61a19",
+        "user_profiles.csv": "e6790f274d309f9a11342bd12f2aba8c0b7100a05caecce827046cd7392fcaab",
+        "job.csv": "86662d7f91f1b6ac88849c6a84f56f62c44e54025a0d2a81447afc75cc7d8168",
+        "ratings.csv": "6fa9bd3ad965c5717277b25050da54f85fa7c857d789b654d0e1c68604d37641",
+        "job_views.csv": "5fca959f3dcd4833acc483936c9e6df9a7af0b41739c0866c823de98e3960ef2"
+      }
+    }
+  },
+  "live_drift": {
+    "users": 0,
+    "jobs": 21,
+    "ratings": 42,
+    "views": 0,
+    "open_jobs": 10
+  },
+  "captures": {
+    "status": "PASS",
+    "count": 11,
+    "visual_review": "11 recommendation images and 5 profile/employer/history/verified-search/duplicate-search images inspected",
+    "limitation": "Some baseline star-rating widgets were still loading; ranking labels/items verified."
+  },
+  "import": {
+    "csv": "PASS_10_ROWS_19_COLUMNS",
+    "published_count": 0,
+    "status": "AWAITING_USER_CONFIRMATION"
+  },
+  "report": {
+    "structure": "PASS",
+    "visual": "NOT_VERIFIED",
+    "reason": "Bundled LibreOffice soffice.exe unavailable",
+    "figures": 18,
+    "sha256": "68ced56f61b9f5d18ca39008f5f6b3f8e2a31973b781b5b83c3ade99c41a809b"
+  },
+  "privacy_reduced_csv_scan": "PASS_NO_EMAIL_OR_JWT_PATTERNS",
+  "overall_status": "PARTIAL_HANDOFF_NOT_ASSIGNMENT_COMPLETE"
+}
