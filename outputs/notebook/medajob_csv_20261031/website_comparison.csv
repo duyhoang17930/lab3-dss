@@ -1,0 +1,10 @@
+﻿algorithm,similarity,requested_k,n_web,n_python,intersection,overlap_at_k,jaccard,top1_match,mean_absolute_rank_delta_common,same_user,capture_id,captured_at,comparison_status
+cbf,cosine,10,,10,,,,,,False,,,missing_capture
+cf,cosine,10,,10,,,,,,False,,,missing_capture
+hybrid,cosine,10,,10,,,,,,False,,,missing_capture
+user_knn,cosine,10,,10,,,,,,False,,,missing_capture
+item_knn,cosine,10,,10,,,,,,False,,,missing_capture
+popularity,cosine,10,,10,,,,,,False,,,missing_capture
+sgd,cosine,10,,10,,,,,,False,,,missing_capture
+als_explicit,cosine,10,,10,,,,,,False,,,missing_capture
+als_implicit,cosine,10,,10,,,,,,False,,,missing_capture

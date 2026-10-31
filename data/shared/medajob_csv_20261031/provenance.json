@@ -1,0 +1,30 @@
+﻿{
+    "source":  "C:/Users/pc/Downloads/medajob-csv",
+    "export_date":  "2026-10-31",
+    "source_sha256":  {
+                          "users.csv":  "88037B6E288DB38431589F41D6D56A0DF9D19D6B1FD324CC566355A59390A558",
+                          "job_views.csv":  "5FCA959F3DCD4833ACC483936C9E6DF9A7AF0B41739C0866C823DE98E3960EF2",
+                          "user_profiles.csv":  "0A8A6425659EC862ABF722BE07D358314F676CDC0557336E1A47E9EFBEBE233C",
+                          "job.csv":  "C3109BD04E0D54115F4C6D6CA226122852DCB4FA71AF25731BB55376ECDC12CA",
+                          "ratings.csv":  "AA075E2BE8E8F36FC46BADECEB8B8F4BBF924BD0728ECC55EE193A64C2166849"
+                      },
+    "rows":  {
+                 "users":  466,
+                 "profiles":  78,
+                 "jobs":  1241,
+                 "ratings":  361,
+                 "views":  0
+             },
+    "removed":  "names, email addresses, phones, dates of birth, locations in user records, employer IDs, CV/profile prose, rating comments, job descriptions, HR contacts, URLs, and raw note text",
+    "retained":  "model fields, public job title/company labels, numeric IDs, and one selected username for the target",
+    "user_roles":  [
+                       "employer=431",
+                       "candidate=34",
+                       "admin=1"
+                   ],
+    "note_group_counts":  [
+                              "test=45",
+                              "other/blank=455",
+                              "career.vn=741"
+                          ]
+}

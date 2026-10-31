@@ -1,0 +1,74 @@
+{
+  "raw_counts": {
+    "users": 466,
+    "profiles": 78,
+    "jobs": 1241,
+    "ratings": 361,
+    "views": 0
+  },
+  "users": 466,
+  "jobs": 1241,
+  "ratings": 361,
+  "views_raw": 0,
+  "view_pairs": 0,
+  "rating_users": 26,
+  "rated_jobs": 195,
+  "rating_distribution": {
+    "1": 22,
+    "2": 20,
+    "3": 42,
+    "4": 129,
+    "5": 148
+  },
+  "users_without_skills": 393,
+  "jobs_without_skills": 24,
+  "status_counts": {
+    "open": 1190,
+    "closed": 51
+  },
+  "foreign_key_violations": {
+    "profiles_unknown_user": 0,
+    "ratings_unknown_user": 0,
+    "views_unknown_user": 0,
+    "ratings_unknown_job": 0,
+    "views_unknown_job": 0
+  },
+  "sparsity_all_users": 0.999375763004361,
+  "sparsity_rating_users": 0.988811752308932,
+  "rating_timestamps_available": false,
+  "view_timestamp_unique": 0,
+  "skill_format": "JSON arrays and comma/semicolon/pipe-separated strings; NFC; lowercase; preserve phrases",
+  "raw_columns": {
+    "users": [
+      "id",
+      "username"
+    ],
+    "profiles": [
+      "user_id",
+      "user_skills"
+    ],
+    "jobs": [
+      "id",
+      "job_title",
+      "job_skills",
+      "company_name",
+      "job_location",
+      "status",
+      "deadline",
+      "source_group"
+    ],
+    "ratings": [
+      "user_id",
+      "job_id",
+      "rating"
+    ],
+    "views": [
+      "id",
+      "user_id",
+      "job_id",
+      "view_duration",
+      "source",
+      "viewed_at"
+    ]
+  }
+}

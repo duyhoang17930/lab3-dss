@@ -1,0 +1,83 @@
+{
+  "run_at": "2026-10-31T11:58:38.045799+07:00",
+  "data_dir": "data\\shared\\medajob_csv_20261031",
+  "dataset_snapshot_id": "e04bf8885f0d49ad",
+  "raw_sha256": {
+    "users.csv": "04720be45f2f040d53c8dbe18f4c31cbe65d64e56814396cba4c1b86b298e7f0",
+    "user_profiles.csv": "aa96d765773a18d2614d73f8e097aaf73c054555e1287e443bef73553b3e7569",
+    "job.csv": "f05125ee0e532d9a06b800ff20e2d83acc6a2fbf2351a41abe7d7b8e4458d9c5",
+    "ratings.csv": "7aa47518363e6b05516e3f0886d6dd1f0e4e8cd7c344f68afaf9a7980dc65a82",
+    "job_views.csv": "5fca959f3dcd4833acc483936c9e6df9a7af0b41739c0866c823de98e3960ef2"
+  },
+  "target_username": "sv102230347",
+  "target_user_id": "459",
+  "target_status": "available",
+  "target_rating_count": 8,
+  "config": {
+    "top_n": 10,
+    "seed": 42,
+    "similarity": "cosine",
+    "positive_threshold": 4.0,
+    "view_weight": 0.25,
+    "hybrid_alpha": 0.55,
+    "knn_k": 5,
+    "popularity_prior": 5.0,
+    "factors": 12,
+    "sgd_epochs": 45,
+    "sgd_lr": 0.012,
+    "sgd_reg": 0.04,
+    "als_explicit_epochs": 12,
+    "als_explicit_reg": 0.4,
+    "als_implicit_epochs": 10,
+    "als_implicit_alpha": 16.0,
+    "als_implicit_reg": 0.7,
+    "exclude_rated": true,
+    "active_only": true
+  },
+  "website_csv": null,
+  "capture_manifest": null,
+  "config_id": "b53dde970b01",
+  "recommendation_rows": 90,
+  "algorithm_count": 9,
+  "source_sha256": {
+    "data.py": "f8abb0483657176e29e054be60842403f87c077a557431447c79dfb2fab43c92",
+    "evaluation.py": "655f99b775af7c0430da7167babe45389d95d797e12ec8f076e919f775f60b42",
+    "models.py": "533fbc1c172f8badc038322670e4660457e67461bbec2a20a890ebb3a56540e6",
+    "run.py": "3f6ef94fafe48c84fb672fe45b996a5490e5d83f8dfaacb819bbb96b044a5808",
+    "__init__.py": "8b05ffa9f3a40d77e7046ebeb3fc9ff20fc2773cf029602f37bc5a5d11e656ae"
+  },
+  "test_users": 23,
+  "python": "3.14.3",
+  "libraries": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.9"
+  },
+  "duration_seconds": 31.855,
+  "artifact_sha256": {
+    "data_quality.json": "9e767d5b570b4e6c845f4c989d2cf67aa2214dfe4c7d5e6bb96b18fe4342b9bf",
+    "offline_metrics.csv": "e2c6a439f216271b004cb5e6224affcd67e088483c3d97f2535508c39f4830e1",
+    "per_user_metrics.csv": "ff0b654b1bdc0e1f84c37018c7b97135462aa82d3756a26db2c8c4db2b1b1a76",
+    "recommendations.csv": "5890b34248076638cde68da98fb46e2030cbc3cbaee857aba5e834a3dd666fea",
+    "split_manifest.json": "9b5e91aba4290ef4844895bcd8f6e4489a79f48c83068a063bb5e7e8aaeeca5f",
+    "test_ratings.csv": "41090a04661e545d7e4aada43d5c228510d7f2dc53ab7e5cc20d83afe2ddf310",
+    "training_loss.csv": "238a5f1ae9875e778364c57b1e12b059d3f1d86759076205c6d28ed0e32077cb",
+    "train_ratings.csv": "a6a50fafd7a4d9cfdd143b37e2a479bd5bca6d4596721703c5c3569b25419cbd",
+    "train_views.csv": "5dd23be143f49d62eb423654d25dc9b6a65e779406e238633853fd8d34956a7d",
+    "website_comparison.csv": "9fb4c6f7041d5f504c1de0128bf4d3239cfe0cfbbd21eb275369d86e0a02df82",
+    "website_rank_details.csv": "f01a374e9c81e3db89b3a42940c4d6a5447684986a1296e42bf13f196eed6295",
+    "figures\\offline_metrics.png": "db8b9c0b7cda17793981ba66fa1e7281cd84b41caeba3f37aa59859e0df80568",
+    "figures\\rating_distribution.png": "7ee4f92e687c56dbebb6702441e3c35997f5799149a7b943f32941542c349645",
+    "figures\\training_loss.png": "fb4068cbadced33b76d85b7191e1fe0a7aa96403feb8031db81d39ca6b14e437"
+  },
+  "limitations": [
+    "Website backend parameters and exact live snapshot parity are not known.",
+    "Scores from different algorithms are not directly comparable.",
+    "Holdout uses positive ratings; HR equals recall because one item is held out per user.",
+    "Profile metadata are treated as static snapshot metadata; no historical profile versions.",
+    "Native-supported candidates rank before explicitly labeled fallback candidates.",
+    "Open status controls candidates; no inferred historical deadline filter."
+  ]
+}

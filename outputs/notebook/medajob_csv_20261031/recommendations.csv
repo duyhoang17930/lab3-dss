@@ -1,0 +1,91 @@
+﻿algorithm,algorithm_name,user_id,job_id,rank,title,company_name,score,score_type,status,fallback,reason,matched_skills,dataset_snapshot_id,config_id
+cbf,CBF - Theo kỹ năng,459,945,1,Python Backend Developer,Example Company,0.5773502691896258,cosine,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,2039,2,Python Backend Developer,Example Company,0.5773502691896258,cosine,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,7,3,QA Automation Engineer 07,Tech Company 2,0.5,cosine,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,11,4,Python Backend Developer 11,Tech Company 1,0.5,cosine,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,17,5,QA Automation Engineer 17,Tech Company 2,0.5,cosine,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,21,6,Python Backend Developer 21,Tech Company 1,0.5,cosine,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,27,7,QA Automation Engineer 27,Tech Company 2,0.5,cosine,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,31,8,Python Backend Developer 31,Tech Company 1,0.5,cosine,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,37,9,QA Automation Engineer 37,Tech Company 2,0.5,cosine,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cbf,CBF - Theo kỹ năng,459,41,10,Python Backend Developer 41,Tech Company 1,0.5,cosine,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1900,1,Data Engineer / Big Data Specialist,KMS Technology Vietnam,0.2567747560487626,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1908,2,QA Automation Test Engineer (Python / Playwright),Orient Software Development Corp,0.2545808525432614,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1904,3,Golang Backend Developer / High Concurrency Specialist,Viettel Solutions (Tập đoàn Viettel),0.25265733569199256,affinity,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1979,4,"Data Scientist (ML, AWS, Azure, Cloud)",Ngan Hang TMCP Cong Thuong Viet Nam (VietinBank),0.23635970382096158,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1901,5,AI / Machine Learning Engineer (Recommender Systems),VNG Corporation (Zalo Group),0.21867724655645132,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,643,6,DỰ ÁN COREBANKING - CHUYÊN GIA CẤP CAO CYBER SECURITY / RISK / FRAUD,Ngân hàng TMCP Phát triển TP.HCM (HDBank),0.21291675012347314,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,664,7,"Chuyên viên, Chuyên viên Cao cấp Khoa học Dữ liệu - Data Scientist - Khối Dữ liệu (2026TD450984)",Ngân Hàng TMCP Quân Đội,0.21291675012347314,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1868,8,Data Engineer (SQL / Spark / ETL),F88,0.21291675012347314,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1869,9,Data Engineer,LG CNS Việt Nam,0.21291675012347314,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+cf,CF - Theo hành vi,459,1912,10,Data Engineer,Công Ty TNHH LG CNS VIỆT NAM,0.21291675012347314,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,1979,1,"Data Scientist (ML, AWS, Azure, Cloud)",Ngan Hang TMCP Cong Thuong Viet Nam (VietinBank),0.5134733140141016,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,1900,2,Data Engineer / Big Data Specialist,KMS Technology Vietnam,0.5068411146106888,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,2039,3,Python Backend Developer,Example Company,0.47853943054474146,affinity,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,2012,4,Chuyen Vien Ky Su Du Lieu (Data Engineer),Cong ty Co phan Tap doan Meey Land,0.46772893009106276,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,1909,5,"Digital Credit Risk Model Validation (Python, R, SQL)",TNEX,0.4553641194456472,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,1868,6,Data Engineer (SQL / Spark / ETL),F88,0.45149760078092604,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,1869,7,Data Engineer,LG CNS Việt Nam,0.45149760078092604,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,945,8,Python Backend Developer,Example Company,0.4490731195102495,affinity,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,102,9,Trưởng nhóm Phát triển phần mềm,Công ty Cổ phần CANIFA,0.44825860638703097,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+hybrid,Hybrid - Kết hợp,459,283,10,Chuyên viên Kiến trúc hệ thống phần mềm,CÔNG TY CỔ PHẦN TIN HỌC - VIỄN THÔNG HÀNG KHÔNG AITS,0.44825860638703097,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,822,1,Thực Tập Sinh UI/UX Designer - Remote,Công Ty TNHH BEFAS STUDIO,5.0,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,838,2,Java Fullstack Developer,Hitachi Digital Service,5.0,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1860,3,AI Engineer,TTC Viet Nam,5.0,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1861,4,Data Engineer - English Speaking,SMARTOSC,5.0,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1865,5,"AI Engineer (NLP, LLM, AI Agent)",Công ty Cổ phần Công nghệ Sava Meta,5.0,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1869,6,Data Engineer,LG CNS Việt Nam,5.0,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1878,7,Machine Learning Engineer,AI Labs Vietnam,5.0,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1887,8,Data Scientist (Y tế số),VinBigData,5.0,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1890,9,Data Engineer (E-commerce),Tiki,5.0,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+user_knn,User-KNN,459,1894,10,Fresher AI Engineer (Đào tạo 3 tháng),FPT Software Academy,5.0,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1904,1,Golang Backend Developer / High Concurrency Specialist,Viettel Solutions (Tập đoàn Viettel),5.0,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1905,2,Data Analyst / Business Intelligence Developer,Enouvo IT Solutions,5.0,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1908,3,QA Automation Test Engineer (Python / Playwright),Orient Software Development Corp,5.0,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,2011,4,AI Engineer (Education & Research),Truong Dai hoc VinUni,5.0,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,2064,5,[ETA] Fresher Embedded Software Engineer (C focused),Bosch Global Software Technologies,4.475213965631898,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,2065,6,[ETA] Embedded Firmware Engineer,Bosch Global Software Technologies,4.475213965631898,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1861,7,Data Engineer - English Speaking,SMARTOSC,4.0,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1900,8,Data Engineer / Big Data Specialist,KMS Technology Vietnam,4.0,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1902,9,Cloud DevOps / Platform Engineer,Axon Active Vietnam,4.0,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+item_knn,Item-KNN,459,1884,10,"AI Engineer (Python, LLM, RAG)",FPT Software,4.454545454545454,bayesian_rating_prior,fallback,popularity_no_neighbors,popularity_no_neighbors,,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,1884,1,"AI Engineer (Python, LLM, RAG)",FPT Software,4.454545454545454,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,2011,2,AI Engineer (Education & Research),Truong Dai hoc VinUni,4.444444444444445,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,838,3,Java Fullstack Developer,Hitachi Digital Service,4.375,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,1865,4,"AI Engineer (NLP, LLM, AI Agent)",Công ty Cổ phần Công nghệ Sava Meta,4.375,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,2010,5,Machine Learning Engineer,Everfit,4.375,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,1908,6,QA Automation Test Engineer (Python / Playwright),Orient Software Development Corp,4.357142857142857,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,1901,7,AI / Machine Learning Engineer (Recommender Systems),VNG Corporation (Zalo Group),4.333333333333333,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,2006,8,Ky su Du lieu (Data Engineer),Tap doan Buu chinh Vien thong Viet Nam (VNPT),4.333333333333333,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,2007,9,AI Software Engineer (Python/Go/C++),Ngan hang TMCP Quan Doi (MBBank),4.3,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+popularity,Popularity - Phổ biến,459,2008,10,Tech Lead Python,"TECHVIFY SOFTWARE., JSC",4.3,predicted_rating,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,1865,1,"AI Engineer (NLP, LLM, AI Agent)",Công ty Cổ phần Công nghệ Sava Meta,5.238260727644572,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,831,2,"Middle to Senior Data Analyst SaaS, US product",Flodesk,5.179671745824769,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,1989,3,Nhân viên Phân tích Dữ liệu (Data Analyst),Medcare LLC,5.118950546500603,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,2011,4,AI Engineer (Education & Research),Truong Dai hoc VinUni,5.108068114395236,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,1878,5,Machine Learning Engineer,AI Labs Vietnam,5.085596422845153,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,1945,6,Lập Trình Viên Ứng Dụng Đa Nền Tảng (Desktop/Web/Mobile),Phi Long Tecnology,5.081238737233808,predicted_rating,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,2010,7,Machine Learning Engineer,Everfit,5.058253635288479,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,1884,8,"AI Engineer (Python, LLM, RAG)",FPT Software,4.982807017289454,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,2006,9,Ky su Du lieu (Data Engineer),Tap doan Buu chinh Vien thong Viet Nam (VNPT),4.9585051122053585,predicted_rating,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+sgd,Model-based CF - SGD,459,838,10,Java Fullstack Developer,Hitachi Digital Service,4.943172661240557,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,821,1,Content Creator,CÔNG TY TNHH BẤT ĐỘNG SẢN ROMAN,4.6461219553699085,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1880,2,QA Automation Engineer,Quality First Tech,4.619168101754084,predicted_rating,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1881,3,DevOps Engineer,CloudBridge,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1920,4,Kỹ sư cầu nối (BrSE) - Đà Nẵng,AZoom VietNam,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1922,5,Chuyên Viên Tư Vấn Phần Mềm Trực Tiếp (B2C-B2B),,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1925,6,Telesales & Student Success Consultant – Tư vấn kiêm chăm sóc khách hàng,51Talk / HELLOWORLD ONLINE EDUCATION VIETNAM,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1926,7,Kỹ sư Tư Vấn Giải Pháp CNTT (VMware/Network/Security),Công ty TNHH Viettel - CHT,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1927,8,Angular Developer (Middle),Saigon Technology,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1948,9,Chuyên Viên Marketing / Digital Marketing (Từ 1 Năm KN - Lương Upto 15 Triệu) Đi Làm Ngay,CÔNG TY TNHH NAM THUẬN AN,4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_explicit,Model-based CF - ALS Explicit,459,1950,10,Manager – Fertilizer Trading,CÔNG TY TNHH RCL INDUSTRIAL PRODUCTS (VIETNAM),4.619168101754084,predicted_rating,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,2064,1,[ETA] Fresher Embedded Software Engineer (C focused),Bosch Global Software Technologies,0.47276650258288994,affinity,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,2065,2,[ETA] Embedded Firmware Engineer,Bosch Global Software Technologies,0.47276650258288994,affinity,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,1904,3,Golang Backend Developer / High Concurrency Specialist,Viettel Solutions (Tập đoàn Viettel),0.43965238095831016,affinity,model,,model_supported,,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,2011,4,AI Engineer (Education & Research),Truong Dai hoc VinUni,0.3529073340738359,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,1900,5,Data Engineer / Big Data Specialist,KMS Technology Vietnam,0.35112622762097606,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,1908,6,QA Automation Test Engineer (Python / Playwright),Orient Software Development Corp,0.34280931062284525,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,1923,7,Tech Lead Java Developer,FPT Software,0.336839138212786,affinity,model,,model_supported,sql,e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,1979,8,"Data Scientist (ML, AWS, Azure, Cloud)",Ngan Hang TMCP Cong Thuong Viet Nam (VietinBank),0.3331666183750407,affinity,model,,model_supported,"python, sql",e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,2032,9,Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878),Ngân Hàng TMCP Quân Đội (MB Bank),0.32991695695260237,affinity,model,,model_supported,"fastapi, python",e04bf8885f0d49ad,b53dde970b01
+als_implicit,Model-based CF - ALS Implicit,459,2048,10,Data Scientist (ENG Fluent),Eastgate Software,0.3292256325158877,affinity,model,,model_supported,python,e04bf8885f0d49ad,b53dde970b01
